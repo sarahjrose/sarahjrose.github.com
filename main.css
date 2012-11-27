@@ -1,0 +1,153 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+body { 
+	background: url("debut_light.png")
+}
+.mainh1 {
+		text-align: left;
+		color: #556270;
+		font-size: 50px;
+		text-shadow:0 2px 0 #fff;
+		padding: 0;
+		margin: 0; 
+		margin-top: 30px;
+		font-family: 'Cantora One', sans-serif;
+		margin-bottom: 200px;
+		margin-top: 80px;
+		line-height: 150%;
+		float:left;
+		width: 500px;
+}
+a {
+	text-decoration: none;
+}
+.sarah {
+	color:#4ECDC4;
+}
+.newyork {
+	color:#C7F464;
+
+}
+.dog {
+	color:#FF6B6B;
+}
+.food {
+	color:#C44D58;
+}
+.image{
+	height: 400px;
+	width: 400px;
+	float:right;
+	margin-top: 80px;
+	overflow: hidden;
+	border-radius: 20px;
+}
+.image img {
+	width: 100%;
+	border-radius: 20px;
+	opacity: 0;
+	display: none;
+}
+/*#sarah {
+	opacity: 0;
+	display: none;
+}
+#bella {
+	opacity: 0;
+	display: none;
+}
+#newyork {
+	opacity: 0;
+	display: none;
+}
+#food {
+	opacity: 0;
+	display: none;
+}*/
+#footer ul li {
+		display:inline-block;
+		border-right: 1px solid;
+		padding: 2px 20px;
+		text-decoration: none;
+		color: #556270;
+		margin-bottom: 10px;
+		font-family: 'Open Sans', sans-serif;
+
+}
+#footer ul li:last-child {
+		border-right:0px;
+
+	}
+#footer a:link , #footer a:visited{
+		color:#556270;
+		}
+
+.wrapper {
+		position: relative;
+		margin:0 auto;
+		width:960px;
+}
+#footer{
+		color: #556270;
+		font-weight:bold;
+		margin-bottom:20px;
+		text-decoration:none;
+		clear:both;
+		text-align: center;
+}
+.nyh1 {
+	color:#C7F464;
+	text-align: left;
+	font-size: 30px;
+	text-shadow:0 2px 0 #fff;
+	font-family: 'Cantora One', sans-serif;
+	padding: 0;
+	margin: 0; 
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.work {
+	color:#4ECDC4;
+	text-align: left;
+	font-size: 50px;
+	text-shadow:0 2px 0 #fff;
+	font-family: 'Cantora One', sans-serif;
+	padding: 0;
+	margin: 0; 
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.navbar {
+	text-align: justify;
+	border: solid 1px #bbbbbb;
+	border-width: 1px 0;
+	background-color: #EFEDED;
+  	font-size: 14px;
+  	padding: 0px;
+  	line-height: 10px;
+  	list-style: none;
+  	margin: 0 auto;
+  	width: 940px;
+  	margin-bottom: 100px;
+  	margin-top: 10px;
+}
+.navbar ul{
+	padding: 5px 0px 5px 15px;
+}
+.navbar li {
+	display: inline;
+	padding-right: 20px;
+}
+.navbar li a {
+	color: #556270;
+	text-decoration: none;
+	font-family: 'Cantora One', sans-serif;
+}
+.video {
+	margin:0 auto;
+	display: block;
+	width: 480px;
+}
