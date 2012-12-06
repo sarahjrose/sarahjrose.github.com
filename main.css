@@ -151,3 +151,45 @@ a {
 	display: block;
 	width: 480px;
 }
+
+.form p {
+	color: #556270;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input[type="text"] {
+		color: #454A4E;
+		font: normal 16px/24px "helvetica neue",helvetica,arial,sans-serif;
+		margin: 0;
+		outline: 0;
+		display: block;
+		padding: 4px 8px 4px 8px;
+		margin-bottom: 10px;
+		border: 1px solid #AEAEAE;
+		box-shadow: inset 0 2px 2px -1px rgba(0, 0, 0, 0.2),0 1px rgba(255, 255, 255, 0.3);
+		border-radius: 4px;
+		width: 300px;
+	}
+
+input[type="submit"] {
+		width: 318px;
+		padding: 8px 8px;
+		border: 1px solid #A64244;
+		box-shadow: inset 0 1px 1px 1px #DA6263;
+		display: block;
+		border-radius: 5px;
+		font-weight: bold;
+		color:white;
+		background: -moz-linear-gradient(top, #cd5151, #ae3031);
+  		background: -ms-linear-gradient(top, #cd5151, #ae3031);
+  		background: -o-linear-gradient(top, #cd5151, #ae3031);
+  		background: -webkit-linear-gradient(top, #cd5151, #ae3031);
+  		background: linear-gradient(top, #a1e048, #6a942f);
+  		font-size: 18px;
+
+		text-shadow:-1px -1px 0 #A64244;
+
+
+
+}
