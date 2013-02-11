@@ -192,4 +192,7 @@ input[type="submit"] {
 
 
 
+} 
+.mainh1 > span {
+	display:none;
 }
