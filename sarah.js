@@ -19,9 +19,3 @@ $(function() {
 	$(".mainh1 > span").each(function(idx) {
 		$(this).delay( idx * 700).fadeIn(700);
 	});
-$( 'span' ).click(function( event ) {
- console.log( 'clicked', $( this ).text() );
-});
-$( 'li' ).on( 'click', function( event ) {
- console.log( 'clicked', $( this ).text() );
-});
