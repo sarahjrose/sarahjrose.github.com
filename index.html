@@ -1,44 +1,90 @@
 <!doctype HTML>
 <html>
 <head>
-<meta charset="utf-8">
-<title>SarahJRose</title>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Cantora+One' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<script src="sarah.js"></script>
-<link rel="stylesheet" type="text/css" href="main.css" />
-<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<meta charset="utf-8">
+	<title>SarahJRose</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Cantora+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <script src="sarah.js"></script>
+  <link rel="stylesheet" type="text/css" href="home.css" />
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
   <!--[if IE]>
       <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <![endif]-->
-</head>
-<body>
-	<div class="top">
-		<div class="wrapper">
-		<h1 class="mainh1">
-		<span class="one">Hi I'm <a href="resume.html" class="sarah">Sarah</a><br/></span>
-		<span class="two">I live in <a href="newyork.html" class="newyork">New York</a><br/></span>
-		<span class="three">I have a <a href="#" class="dog">Dog</a><br/></span>
-		<span class="four">and I really love <a href="http://www.nybonvivant.com/" class="food">Food</a></span>
-		</h1>
-		<div class="image">
-			<img id="sarah" src="http://sphotos-b.xx.fbcdn.net/hphotos-ash3/12880_10100141617010359_627983565_n.jpg" />
-			<img id="newyork" src="http://maps.googleapis.com/maps/api/staticmap?center=40.736,-74.00&zoom=15&size=200x200&sensor=false">
-			<img id="bella" src="http://sphotos-a.xx.fbcdn.net/hphotos-prn1/31068_622273067809_1385249_n.jpg" />
-			<img id="food" src="http://25.media.tumblr.com/tumblr_m1ze29xeYN1qcaqkxo1_400.png" />
-		</div>
-		<div id="footer">
-		<ul>
-			<li><a href="mailto:sjrose19@gmail.com">Email</a></li>
-			<li><a href="http://www.twitter.com/sarahjrose">Twitter</a></li>
-			<li><a href="http://pinterest.com/sjrose19/">Pinterest</a></li>
-			<li><a href="http://www.facebook.com/sarah.rose.77582359">Facebook</a></li>
-		</ul>
-	</div>
+      <![endif]-->
+    </head>
+    <body>
+      
+     <div class='top'>
+      <div class='wrapper'>
+
+      <h1>
+        <div class='circle'>
+         <img src='http://sphotos-b.xx.fbcdn.net/hphotos-ash3/527221_10100103967460359_151618632_n.jpg' />
+       </div>
+       Sarah J Rose
+     </h1>
+     <p>I am an aspiring web designer based in NYC</p>
+     <div class='container'>
+      <div class='square'>
+      </div>
+      <div class='triangle'>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class='middle'>
+    <div class='wrapper'>
+      <ul>
+        <li><a href='https://twitter.com/sarahjrose' target='_blank'>Twitter</a></li>
+        <li><a href='http://www.facebook.com/sarah.rose.77582359' target='_blank'>Facebook</a></li>
+        <li><a href='http://pinterest.com/sjrose19/' target='_blank'>Pinterest</a></li>
+        <li><a href='http://www.nybonvivant.com/' target='_blank'>Blog</a></li>
+        <li><a href='mailto:sjrose19@gmail.com"' target='_blank'>Email</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class='lower'>
+      <div class='wrapper'>
+
+  <h2>Projects</h2>
+  <div class='project'>
+    <a href="http://sarahjrose.com/lot18/" target="_blank"><img src='screenshot1.png' /></a>
+    <h3>Redesign Lot18 Homepage</h3>
+  </div>
+  <div class='project'>
+    <a href="http://sarahjrose.com/perezhilton/" target="_blank"><img src='screenshot3.png' /></a>
+    <h3>Perez Meets Pinterest</h3>
+  </div>
+  <div class='project'>
+    <a href="http://sarahjrose.com/resume.html" target="_blank"><img src='screenshot6.png' /></a>
+    <h3>My Resume</h3>
+  </div>
+  <div class='project'>
+    <a href="http://www.nybonvivant.com/" target="_blank"><img src='screenshot4.png' /></a>
+    <h3>Tumblr Blog Theme</h3>
+  </div>
+   <div class='project'>
+    <img src='screenshot5.png' />
+    <h3>First Website</h3>
+  </div>
+  <div class='project'>
+    <a href="http://sarahjrose.com/37signals/" target="_blank"><img src='screenshot2.png' /></a>
+    <h3>Recreation of 37 Signals</h3>
+  </div>
+  <div class='clear'>
+  </div>
 </div>
 </div>
-</div>
+<script type='text/javascript'>
+$(function() {
+  var topOffset = $(window).height() - 100;
+  $('.middle').css('margin-top', topOffset)
+})
+</script>
 </body>
 </html>
