@@ -61,7 +61,7 @@ div.middle a {
 	background: #fff;
 }
 
-h2 {
+.lower h2 {
 	font-family: 'Poiret One', cursive;
 	font-size: 40px;
 	margin: 0;
@@ -83,7 +83,7 @@ h2 {
 	margin-right: 40px;
 }
 
-h3 {
+.lower h3 {
 	margin-right: 40px;
 	font-family: "Open Sans", sans-serif;
 	font-weight: bold;
