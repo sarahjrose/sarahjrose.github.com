@@ -27,7 +27,7 @@
        Sarah J Rose
      </h1>
      <p>I am an aspiring web designer based in NYC</p>
-     <div class='container'>
+     <div class='container' onclick="javascript:scroll();">
       <div class='square'>
       </div>
       <div class='triangle'>
@@ -87,6 +87,11 @@ $(function() {
   var topOffset = $(window).height() - 100;
   $('.middle').css('margin-top', topOffset)
 })
+function scroll() {
+  $('html, body').animate({
+                    scrollTop: $(".lower").offset().top
+                     }, 1000);
+    }
 </script>
 </body>
 </html>
