@@ -38,6 +38,7 @@ div.middle ul {
 div.middle li {
 	display: inline;
 	padding: 10px;
+
 }
 
 div.middle a {
@@ -47,6 +48,17 @@ div.middle a {
 	text-align: center;
 	text-decoration: none;
 	font-family: "Open Sans", sans-serif;
+		-moz-transition:color 2s; /* Firefox 4 */
+	-webkit-transition:color 2s; /* Safari and Chrome */
+	-o-transition:color 2s; /* Opera */
+
+}
+
+div.middle:hover a{
+	color: #FFF0F5;
+	-moz-transition:color 2s; /* Firefox 4 */
+	-webkit-transition:color 2s; /* Safari and Chrome */
+	-o-transition:color 2s; /* Opera */
 }
 
 .clear {
@@ -126,6 +138,20 @@ div.circle {
   animation:  moveY 0.7s linear 0s infinite alternate;
 }
 
+.container:hover .triangle {
+	border-top: 45px solid #ccc;
+	-moz-transition:border-top 2s; /* Firefox 4 */
+	-webkit-transition:border-top 2s; /* Safari and Chrome */
+	-o-transition:border-top 2s; /* Opera */
+}
+
+.container:hover .square {
+	background: #ccc;
+	-moz-transition:backgroud 2s; /* Firefox 4 */
+	-webkit-transition:background 2s; /* Safari and Chrome */
+	-o-transition:background 2s; /* Opera */
+}
+
 @-webkit-keyframes moveY {
   from { top: 0; } to { top: 15px; }
 }
@@ -146,6 +172,9 @@ div.circle {
 	height: 35px;
 	width: 40px;
 	background: #366988;
+		-moz-transition:backgroud 2s; /* Firefox 4 */
+	-webkit-transition:background 2s; /* Safari and Chrome */
+	-o-transition:background 2s; /* Opera */
 }
 
 .triangle {
@@ -158,6 +187,9 @@ div.circle {
     border-right: 35px solid transparent;
     border-top: 45px solid #366988;
     z-index: 0;
+    -moz-transition:border-top 2s; /* Firefox 4 */
+	-webkit-transition:border-top 2s; /* Safari and Chrome */
+	-o-transition:border-top 2s; /* Opera */
 }
 
 
