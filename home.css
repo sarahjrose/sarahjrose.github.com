@@ -101,6 +101,7 @@ div.middle:hover a{
 	font-weight: bold;
 	text-align: center;
 	color: #222;
+	padding top: 10px;
 }
 
 .project p {
