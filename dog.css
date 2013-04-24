@@ -46,12 +46,14 @@ div.container {
 ul.hash {
 	width: 100%;
 	list-style-type: none;
+	padding-top: 15px;
+	text-align: center;
 }
 ul.hash li {
 	position: relative;
   	display: inline;
   	font-size: 15px;
-  	padding-right: 40px;
+  	padding-left: 40px;
   	font-weight: bold;
   	font-family: "helvetica neue",arial,sans-serif;
   	text-shadow: white 0px 1px 0px;
