@@ -1,0 +1,27 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+div.header {
+  position: relative;
+  box-shadow: 0 0 transparent;
+  height: 89px;
+}
+
+div.header h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 50px;
+  padding-top: 10px;
+  font-family: 'Cantora One', sans-serif;
+  color: #ff6b6b;
+  font-size: 50px;
+  text-shadow:0 2px 0 #fff;
+}
