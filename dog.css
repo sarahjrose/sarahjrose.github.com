@@ -31,7 +31,7 @@ div.container {
 	width: 100%;
 	width:980px;
 	margin: 0 auto;
-	background-color: #e6e8eb;
+	margin-top: 5px;
 }
 .bar {
 	position: relative;
