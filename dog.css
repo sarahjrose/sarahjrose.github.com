@@ -65,3 +65,35 @@ ul.hash a {
   list-style: none;
   color: #405c9a;
 }
+
+#olapic_publicgallery .olapic_publicgallery_showgallery_img_cont .img-link:hover {
+    background: #F05E76;
+}
+#olapic-gallery-wrapper .columns:nth-child(1n) li:nth-child(1n) .img-link:hover {
+    background: #F05E76;
+}
+#olapic-gallery-wrapper .columns:nth-child(2n) li:nth-child(1n) .img-link:hover {
+    background: #F37364;
+}
+#olapic-gallery-wrapper .columns:nth-child(3n) li:nth-child(1n) .img-link:hover {
+    background: #F9A779;
+}
+#olapic-gallery-wrapper .columns:nth-child(1n) li:nth-child(2n) .img-link:hover {
+    background: #FBC5B5;
+}
+#olapic-gallery-wrapper .columns:nth-child(2n) li:nth-child(2n) .img-link:hover {
+    background: #FBE8E1;
+}
+#olapic-gallery-wrapper .columns:nth-child(3n) li:nth-child(2n) .img-link:hover {
+    background: #CEB8E0;
+}
+#olapic-gallery-wrapper .columns:nth-child(1n) li:nth-child(3n) .img-link:hover {
+    background: #C5E6E2;
+}
+#olapic-gallery-wrapper .columns:nth-child(2n) li:nth-child(3n) .img-link:hover {
+    background: #7ACDCD;
+}
+#olapic-gallery-wrapper .columns:nth-child(3n) li:nth-child(3n) .img-link:hover {
+    background: #6EE492;
+}
+
