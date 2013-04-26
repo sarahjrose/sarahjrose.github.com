@@ -8,8 +8,7 @@ html, body {
   margin: 0 auto;
   position: relative;
 }
-
-.header h1 {
+h1 {
 	text-align: center;
 	color:#366988;
 	margin-bottom: 10px;
